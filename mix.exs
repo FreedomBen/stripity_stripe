@@ -2,7 +2,7 @@ defmodule Stripe.Mixfile do
   use Mix.Project
 
   @source_url "https://github.com/freedomben/stripity_stripe"
-  @version "2.13.0"
+  @version "2.13.1"
 
   def project do
     [
@@ -68,7 +68,7 @@ defmodule Stripe.Mixfile do
       {:jason, "~> 1.1"},
       {:uri_query, "~> 0.1.2"},
       {:exexec, "~> 0.1.0", only: :test},
-      {:plug, "~> 1.0", optional: true}
+      {:plug, "~> 1.0"}
     ]
   end
 
