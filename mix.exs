@@ -1,12 +1,12 @@
 defmodule Stripe.Mixfile do
   use Mix.Project
 
-  @source_url "https://github.com/code-corps/stripity_stripe"
+  @source_url "https://github.com/freedomben/stripity_stripe"
   @version "2.13.0"
 
   def project do
     [
-      app: :stripity_stripe,
+      app: :stripity_stripe_fb,
       version: @version,
       elixir: "~> 1.10",
       deps: deps(),
